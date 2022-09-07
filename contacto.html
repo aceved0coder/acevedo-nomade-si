@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=navna">
+    <title>Nomade Fotografia</title>
+    <link rel="shortcut icon" href="imagenes/favicon.jfif">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="encabezado">
+        <a href="index.html"> 
+            <img src="imagenes/favicon.jfif" alt="logo de Nomade" class="encabezado__img--fluid">
+        </a>
+            <h1 class="textCenter encabezado__tittle--xl">Nomade Fotografia</h1> 
+        <ul>
+            <li>    
+                <a href="productos.html">productos</a>
+            </li>
+            <li>    
+                <a href="portafolio.html">portafolio</a>
+            </li>
+            <li>
+                <a href="cursos.html">cursos</a>
+            </li>
+            <li>
+                <a href="sobremi.html">sobre mi</a>
+            </li>
+            <li>
+                <a href="contacto.html">contacto</a>
+            </li>
+        </ul>
+    </nav>  
+    <main>
+        <section>
+            <h2>CONTACTO</h2>
+                <h3>Contactanos</h3>
+                <p>Podes comunicarte por Whatsapp de Lunes a Viernes de 12 a 20hs
+                   25081993
+                   nomade fotografia gmail com
+                </p>
+
+            <form action="envio.php">
+               <label for="Nombre">nombre y apellido</label>
+               <input type="text" id="Nombre"> 
+               <br>
+               <label for="email">email</label>
+               <input type="email" id="email"> 
+               <br>
+               <label for="telefono">telefono</label>
+               <input type="telefono" id="telefono">
+               <br>
+               <label for="comentario">dejanos tu mensaje</label> 
+               <br>
+               <textarea name=""comentario" cols="30" rows="10"></textarea>
+               <br>
+               <input type="reset" value="cancelar">
+               <input type="submit" value="enviar">
+            </form>
+        </section>
+    </main> 
+    <footer class="pie">
+        <h2 class="pie__titulo--md">seguinos en nuestras redes</h2>
+        <a href="https://www.instagram.com/" target="_self">
+            <img src="imagenes/instagram.jpg" alt="seguinos en instagram" class="pie__icon--sm">
+        <a href="https://www.pinterest.es/" target="_self">
+            <img src="imagenes/pinterest.png" alt="seguinos en pinterest" class="pie__icon--sm">
+        </a>
+    </footer>
+</body>
+</html>
