@@ -18,14 +18,14 @@ body{
 .container{
    height: 100vh;
    display: grid;
-   grid-template-columns: 1fr 0.5fr 0.5fr 1fr 1fr 1fr;
-   grid-template-rows: 1fr 1fr 1.5fr 1fr 1fr 1fr;
-   grid-template-areas:"header header header header header header"
-   "main main main main main main"
-   "section section section section section section"
-   "section-dos section-dos section-dos section-dos section-dos section-dos"
-   "section-tres section-tres section-tres section-tres section-tres section-tres"
-   "footer footer footer footer footer footer";
+   grid-template-columns: 100%;
+grid-template-rows: repeat(6, 1fr);
+grid-template-areas: "header"
+"main"
+"section"
+"section-dos"
+"section-tres"
+"footer";
 }
 
 header{
