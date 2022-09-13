@@ -3,83 +3,148 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Nomade Fotografia</title>
     <link rel="shortcut icon" href="imagenes/favicon.jfif">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <nav class="encabezado">
-        <a href="index.html"> 
-            <img src="imagenes/favicon.jfif" alt="logo de Nomade" class="encabezado__img--fluid">
-        </a>
-            <h1 class="textCenter encabezado__tittle--xl">Nomade Fotografia</h1> 
-        <ul>
-            <li>    
-                <a href="productos.html">Productos</a>
-            </li>
-            <li>    
-                <a href="portafolio.html">Portafolio</a>
-            </li>
-            <li>
-                <a href="cursos.html">Cursos</a>
-            </li>
-            <li>
-                <a href="sobremi.html">Sobre mi</a>
-            </li>
-            <li>
-                <a href="contacto.html">Contacto</a>
-            </li>
-        </ul>
-    </nav>    
-    <main class="fotos">
+    <header>
+      <div class="container-fluid">
+        <nav class="encabezado">
+                <a href="index.html"> 
+                    <img src="imagenes/favicon.jfif" alt="logo de Nomade" class="encabezado__img--fluid">
+                </a>
+                    <h1 class="textCenter encabezado__tittle--xl">Nomade Fotografia</h1> 
+                    <nav class="navbar navbar-light bg-light">
+                        <div class="container-fluid">
+                          <a class="navbar-brand"></a>
+                          <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                          </form>
+                        </div>
+                      </nav>
+                    <ul class="nav nav-pills nav-fill">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Productos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Portafolio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Cursos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Sobre mi</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contacto</a>
+                </li>
+              </ul>
+            </nav>
+      </div>
+    </nav>
+</header>
+
+    <main>
         <h2 class="textRight fotos__titulo">Mis Servicios</h2>
-        <div class="articulo">
-            <figure>
-                <img src="imagenes/eventos.webp" alt="">
-                <figcaption>Eventos</figcaption>
-            </figure>
-            <figure>
-                <img src="imagenes/fotoproducto.webp" alt="">
-                <figcaption>Foto Producto</figcaption>
-            </figure>
-            <figure>
-                <img src="imagenes/books.webp" alt="">
-                <figcaption>Books</figcaption>
-            </figure>
 
-        </div>
-        <h2 class="textLeft producto__titulo">Productos</h2>
-        <div class="articulo">
-            <figure>
-                <img src="imagenes/postales.jpeg" alt="">
-                <figcaption>Postales</figcaption>
-            </figure>
-            <figure>
-                <img src="imagenes/polaroids.webp" alt="">
-                <figcaption>Polaroids</figcaption>
-            </figure>
-            <figure>
-                <img src="imagenes/cuadros.webp" alt="">
-                <figcaption>Cuadros</figcaption>
-            </figure>
-        </div>
+        <div class="container">
+            <div class="row">
+              <div class="col">
+                <div class="card" style="width: 20rem;">
+                    <img src="imagenes/eventos.webp" class="card-img-top" alt="eventos">
+                    <div class="card-body">
+                      <p class="card-text">E V E N T O S</p>
+                    </div>
+              </div>
+              </div>
+              <div class="col">
+                <div class="card" style="width: 20rem;">
+                    <img src="imagenes/fotoproducto.webp" class="card-img-top" alt="fotoproducto">
+                    <div class="card-body">
+                       <p class="card-text">FOTO PRODUCTO</p>
+                    </div>
+              </div>
+              </div>
+              <div class="col">
+                <div class="col">
+                    <div class="card" style="width: 20rem;">
+                        <img src="imagenes/books.webp" class="card-img-top" alt="books">
+                        <div class="card-body">
+                           <p class="card-text">B O O K S</p>
+                        </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </main> 
 
-        <div class="articulo">
-            <figure>
-                <img src="imagenes/relicarios.jpg" alt="">
-                <figcaption>Relicarios</figcaption>
-            </figure>
-            <figure>
-                <img src="imagenes/tazas.webp" alt="">
-                <figcaption>Tazas</figcaption>
-            </figure>
-            <figure>
-                <img src="imagenes/box-cuadros.webp" alt="">
-                <figcaption>Box Cuadros</figcaption>
-            </figure>
-        </div>
-    </main> 
+        <section>
+            <h2 class="textLeft producto__titulo">Productos</h2>
+            <div class="container">
+                <div class="row">
+                  <div class="col">
+                    <div class="card" style="width: 10rem;">
+                        <img src="imagenes/postales.jpeg" class="card-img-top" alt="">
+                        <div class="card-body">
+                          <p class="card-text">Postales</p>
+                        </div>
+                  </div>
+                  </div>
+                  <div class="col">
+                    <div class="card" style="width: 10rem;">
+                        <img src="imagenes/polaroids.webp" class="card-img-top" alt="">
+                        <div class="card-body">
+                           <p class="card-text">Polaroids</p>
+                        </div>
+                  </div>
+                  </div>
+                  <div class="col">
+                    <div class="col">
+                        <div class="card" style="width: 10rem;">
+                            <img src="imagenes/cuadros.webp" class="card-img-top" alt="">
+                            <div class="card-body">
+                               <p class="card-text">Cuadros</p>
+                            </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+              <div class="container">
+                <div class="row">
+                  <div class="col">
+                    <div class="card" style="width: 10rem;">
+                        <img src="imagenes/relicarios.jpg" class="card-img-top" alt="eventos">
+                        <div class="card-body">
+                          <p class="card-text">E V E N T O S</p>
+                        </div>
+                  </div>
+                  </div>
+                  <div class="col">
+                    <div class="card" style="width: 10rem;">
+                        <img src="imagenes/tazas.webp" class="card-img-top" alt="fotoproducto">
+                        <div class="card-body">
+                           <p class="card-text">FOTO PRODUCTO</p>
+                        </div>
+                  </div>
+                  </div>
+                  <div class="col">
+                    <div class="col">
+                        <div class="card" style="width: 10rem;">
+                            <img src="imagenes/box-cuadros.webp" class="card-img-top" alt="books">
+                            <div class="card-body">
+                               <p class="card-text">B O O K S</p>
+                            </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+        </section>
+
     <footer class="pie">
         <h2 class="pie__titulo--md">seguinos en nuestras redes</h2>
         <a href="https://www.instagram.com/" target="_self">
@@ -90,3 +155,4 @@
     </footer>
 </body>
 </html>
+
