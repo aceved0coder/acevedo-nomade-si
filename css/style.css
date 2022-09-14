@@ -15,81 +15,19 @@ body{
     background-attachment: fixed;
 }
 
-.container{
-   height: 100vh;
-   display: grid;
-   grid-template-columns: 100%;
-grid-template-rows: repeat(6, 1fr);
-grid-template-areas: "header"
-"main"
-"section"
-"section-dos"
-"section-tres"
-"footer";
-}
-
-header{
-   grid-area: header;
-}
-
-main{
-   grid-area: main;
-}
-
-section{
-   grid-area: section;
-}
-
-.section-dos{
-   grid-area: section-dos;
-}
-
-.section-tres{
-   grid-area: section-tres;
-}
-
-footer{
-   grid-area: footer;
-}
 .encabezado__img--fluid{
    width: 5%;
 }
 
-ul {
-   list-style: none;
-   background-color: rgb(135, 172, 235);
-   font-size: 0;
-   padding: 10px;
- }
-
-li {
-   display: inline-block;
-   width: 19%;
-   position:relative;
-   font-size: large;
+.encabezado__tittle--xl{
+   text-align: center;
+   color: teal;
+   font-family: 'Times New Roman', Times, serif;
 }
 
-ul ul {
-      position: absolute;
-      display: none;
-   }
-
-   ul ul li {
-       display: block;
-      }
-
-   ul li:hover ul {
-         display:block;
-      }
-
-a{
-   color: rgba(6, 3, 46, 0.397);
-   text-decoration: none;
-   font-size: large;
-}
-
-a:hover{
-   color: black;
+.comentarios{
+   margin-top: 50px;
+   margin-bottom: 50px;
 }
 
    #principal .galeria{
@@ -101,7 +39,7 @@ a:hover{
    
    #principal .galeria figure{
       text-align: center;
-      width:100%;
+      width: 65%;
    }
    
    #principal .galeria figure img{
@@ -197,6 +135,9 @@ a:hover{
 .fotos__titulo{
    text-align: right;
    font-size: xx-large;
+   color: teal;
+   font-family: 'Times New Roman', Times, serif;
+
 }
 .fotos .articulo{
    margin: auto;
@@ -219,9 +160,16 @@ a:hover{
 .producto__titulo{
    text-align: left;
    font-size: xx-large;
+   color: teal;
+   font-family: 'Times New Roman', Times, serif;
+}
+
+.container{
+   margin: 50px;
 }
 
 .pie{
+    margin: 50px;
     text-align: center;
     padding: 6px 20px;
  }
