@@ -25,6 +25,10 @@ body{
    font-family: 'Times New Roman', Times, serif;
 }
 
+.carousel-inner{
+   margin-left: 475px;
+}
+
 .comentarios{
    margin-top: 50px;
    margin-bottom: 50px;
