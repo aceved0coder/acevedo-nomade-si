@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+ }
+ 
+ html{
+   font-size: 92.5%;
+}
+
+body{
+    background-image: url(../imagenes/background-blue.webp);
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
