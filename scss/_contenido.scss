@@ -1,20 +1,31 @@
 .encabezado__img--fluid{
     width: 5%;
  }
- 
+
 .encabezado__tittle--xl{
     text-align: center;
-    color: teal;
+    color: rgb(87, 87, 79);
     font-family: $mainFont;
  }
 
- .carousel-inner{
-    margin-left: 475px;
+ #botonera{
+    width: 100%;
+    background-color: rgb(87, 87, 79);
+ }
+
+ .nav-link{
+    justify-content: center;
+    color: white;
  }
  
  .comentarios{
     margin-top: 50px;
     margin-bottom: 50px;
+    margin-left: 70px;
+ }
+
+ #principal{
+    margin-top: 50px;
  }
 
  #principal .galeria{
@@ -92,7 +103,6 @@
  .section-tres .comentarios{
   margin:auto;
   display: flex;
-  flex-direction: column;
   align-items: flex-start;
   width: 35%;
 }
@@ -145,6 +155,22 @@
  font-size: xx-large;
  color: teal;
  font-family: 'Times New Roman', Times, serif;
+}
+
+.img_portfolio{
+    width: 500px;
+}
+
+.img_portfolio-xs{
+    width: 250px;
+}
+
+.img_cursos{
+    width: 300px;
+}
+
+.boton-formulario{
+    margin-top: 20px;
 }
 
 .container{
