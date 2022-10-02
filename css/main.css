@@ -9,38 +9,24 @@ html {
 }
 
 body {
-  background-color: rgb(189, 188, 166);
+  background-image: url(../imagenes/background-blue.webp);
   background-repeat: repeat;
   background-attachment: fixed;
 }
 
-.encabezado__img--fluid {
-  width: 5%;
-}
-
 .encabezado__tittle--xl {
   text-align: center;
-  color: rgb(87, 87, 79);
+  color: teal;
   font-family: "Times New Roman", Times, serif;
 }
 
-#botonera {
-  width: 100%;
-  background-color: rgb(87, 87, 79);
-}
-
-.nav-link {
-  justify-content: center;
-  color: white;
+.carousel-inner {
+  margin-left: 475px;
 }
 
 .comentarios {
-  margin-left: 60px;
-  margin-right: 60px;
-}
-
-#principal {
   margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 #principal .galeria {
@@ -117,6 +103,7 @@ body {
 .section-tres .comentarios {
   margin: auto;
   display: flex;
+  flex-direction: column;
   align-items: flex-start;
   width: 35%;
 }
@@ -139,101 +126,54 @@ body {
   align-self: center;
 }
 
-.fotos_contenedor {
-  margin-left: 60px;
-  margin-right: 60px;
-}
-
 .fotos__titulo {
   text-align: right;
-  margin-top: 20px;
-  margin-right: 120px;
-  font-size: 2em;
+  font-size: xx-large;
   color: teal;
   font-family: "Times New Roman", Times, serif;
 }
 
-.productos_contenedo {
-  margin-left: 60px;
-  margin-right: 60px;
+.fotos .articulo {
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.fotos .articulo figure {
+  text-align: center;
+  width: 25%;
+}
+
+.fotos .articulo figure img {
+  width: 100%;
+}
+
+.fotos .articulo figure figcaption {
+  font-size: large;
+  color: black;
 }
 
 .producto__titulo {
-  margin-left: 60px;
-  font-size: 2em;
+  text-align: left;
+  font-size: xx-large;
   color: teal;
   font-family: "Times New Roman", Times, serif;
-}
-
-.segundo_cuadro {
-  margin-top: 20px;
-}
-
-.formulario_contenedor {
-  margin-left: 60px;
-  margin-right: 60px;
-}
-
-.boton-formulario {
-  margin-top: 20px;
-  color: whitesmoke;
-  background-color: #000000;
-}
-
-.img_portfolio {
-  width: 500px;
-}
-
-.img_portfolio-xs {
-  width: 250px;
-}
-
-.fotografia_contenedor {
-  margin-left: 60px;
-  margin-right: 60px;
-}
-
-.fotografia_titulo {
-  margin-top: 25px;
-  margin-left: 60px;
-  font-size: 2em;
-  color: teal;
-  font-family: "Times New Roman", Times, serif;
-}
-
-.fotografia_subtitulo {
-  margin-left: 60px;
-  color: teal;
-  font-family: "Times New Roman", Times, serif;
-  font-size: 1.6em;
-}
-
-.border_texto {
-  border-style: outset;
-}
-
-.img_cursos {
-  width: 250px;
 }
 
 .container {
   margin: 50px;
 }
 
-.encabezado_tittle {
-  text-align: center;
-  color: rgb(255, 255, 255);
-  font-family: "Times New Roman", Times, serif;
-}
-
 .pie {
-  width: 100%;
-  margin-top: 20px;
-  background-color: rgb(56, 56, 56);
+  margin: 50px;
   text-align: center;
+  padding: 6px 20px;
 }
 
-.pie_icon--sm {
-  width: 45px;
-  margin-right: 20px;
-}/*# sourceMappingURL=style.css.map */
+.pie__icon--sm {
+  width: 35px;
+}
+
+.pie__titulo--md {
+  font-size: 2em;
+}/*# sourceMappingURL=main.css.map */

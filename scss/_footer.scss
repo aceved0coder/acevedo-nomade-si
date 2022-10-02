@@ -1,14 +1,17 @@
-.pie{
-    margin: 50px;
+.encabezado_tittle{
     text-align: center;
-    padding: 6px 20px;
+    color: rgb(255, 255, 255);
+    font-family: $mainFont;
+ }
+.pie{
+    width: 100%;
+    margin-top: 20px;
+    background-color: rgb(56, 56, 56);
+    text-align: center;
  }
  
- .pie__icon--sm{
-    width: 35px;
- }
- 
- .pie__titulo--md{
-    font-size: $textLg;
+ .pie_icon--sm{
+    width: 45px;
+    margin-right: 20px;
  }
  

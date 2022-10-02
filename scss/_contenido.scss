@@ -19,9 +19,9 @@
  }
  
  .comentarios{
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-left: 70px;
+    margin-left: 60px;
+    margin-right: 60px;
+    
  }
 
  #principal{
@@ -124,37 +124,44 @@
   background-image: url(../imagenes/background-blue.webp);
   align-self: center;
 }
+.fotos_contenedor{
+    margin-left: 60px;
+    margin-right: 60px;
+}
 
 .fotos__titulo{
- text-align: right;
- font-size: xx-large;
- color: teal;
- font-family: 'Times New Roman', Times, serif;
-
-}
-.fotos .articulo{
- margin: auto;
- display: flex;
- justify-content: space-between;
-}
-.fotos .articulo figure{
- text-align: center;
- width: 25%;
-}
-.fotos .articulo figure img{
- width: 100%;
+    text-align: right;
+    margin-top: 20px;
+    margin-right: 120px;
+    font-size: $textLg;
+    color: teal;
+    font-family: $mainFont;
 }
 
-.fotos .articulo figure figcaption{
- font-size: large;
- color: black;
+.productos_contenedo{
+    margin-left: 60px;
+    margin-right: 60px;
 }
 
 .producto__titulo{
- text-align: left;
- font-size: xx-large;
- color: teal;
- font-family: 'Times New Roman', Times, serif;
+    margin-left: 60px;
+    font-size: $textLg;
+    color: teal;
+    font-family: $mainFont;
+}
+.segundo_cuadro{
+    margin-top: 20px;
+}
+
+.formulario_contenedor{
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.boton-formulario{
+    margin-top: 20px;
+    color: whitesmoke;
+    background-color: #000000;
 }
 
 .img_portfolio{
@@ -165,12 +172,32 @@
     width: 250px;
 }
 
-.img_cursos{
-    width: 300px;
+.fotografia_contenedor{
+    margin-left: 60px;
+    margin-right: 60px;
 }
 
-.boton-formulario{
-    margin-top: 20px;
+.fotografia_titulo{
+    margin-top: 25px;
+    margin-left: 60px;
+    font-size: $textLg;
+    color: teal;
+    font-family: $mainFont;
+}
+
+.fotografia_subtitulo{
+    margin-left: 60px;
+    color: teal;
+    font-family: $mainFont;
+    font-size: $textMd;
+}
+
+.border_texto{
+    border-style: outset;
+}
+
+.img_cursos{
+    width: 250px;
 }
 
 .container{
