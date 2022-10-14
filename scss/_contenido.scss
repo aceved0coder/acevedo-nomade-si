@@ -1,0 +1,138 @@
+.encabezado__img--fluid{
+    width: 5%;
+ }
+
+.encabezado__tittle--xl{
+    text-align: center;
+    color: rgb(87, 87, 79);
+    font-family: $mainFont;
+ }
+
+ #botonera{
+    width: 100%;
+    background-color: rgb(87, 87, 79);
+ }
+
+ .nav-link{
+    justify-content: center;
+    color: white;
+ }
+ 
+ .comentarios{
+    margin-left: 60px;
+    margin-right: 60px;
+    
+ }
+
+ .fotos_contenedor{
+    margin-left: 78px;
+    margin-right: 78px;
+ }
+
+.fotos__titulo{
+    margin-top: 20px;
+    margin-left: 120px;
+    margin-bottom: 30px;
+    font-size: $textLg;
+    color: teal;
+    font-family: $mainFont;
+}
+
+.producto__titulo{
+    text-align: right;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-right: 115px;
+    font-size: $textLg;
+    color: teal;
+    font-family: $mainFont;
+}
+.segundo_cuadro{
+    margin-top: 20px;
+    margin-left: 78px;
+    margin-right: 78px;
+
+}
+
+.titulo_bodas{
+    font-size: $textLg;
+    color: teal;
+    font-family: $mainFont;
+    margin-left: 60px;
+    margin-top: 25px;
+}
+
+.subtitulo_bodas{
+    font-size: $textMd;
+    color: teal;
+    font-family: $mainFont;
+    margin-left: 60px;
+}
+
+.bodas_contenedor{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.fotografia_contenedor{
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.fotografia_titulo{
+    margin-top: 25px;
+    margin-left: 60px;
+    font-size: $textLg;
+    color: teal;
+    font-family: $mainFont;
+}
+
+.fotografia_subtitulo{
+    margin-left: 60px;
+    margin-bottom: 30px;
+    color: teal;
+    font-family: $mainFont;
+    font-size: $textMd;
+}
+
+.border_texto{
+    font-family: $mainFont;
+    font-size: $textSm;
+    padding: 25px;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.img_cursos{
+    width: 250px;
+}
+
+.container{
+ margin: 50px;
+}
+
+.titulo_sobremi{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: teal;
+    font-family: $mainFont;
+    font-size: $textLg;
+}
+
+.formulario_contenedor{
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 50px;
+}
+.titulo_formulario{
+    color: teal;
+    font-family: $mainFont;
+    font-size: $textLg;
+}
+
+.boton-formulario{
+    margin-top: 20px;
+    color: whitesmoke;
+    background-color: #000000;
+}
