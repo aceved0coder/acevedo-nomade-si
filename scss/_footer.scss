@@ -1,10 +1,11 @@
-.encabezado_tittle{
+.footer_tittle{
     text-align: center;
     color: rgb(255, 255, 255);
     font-family: $mainFont;
+    font-size: $textMd;
  }
 .pie{
-    width: 100%;
+    text-decoration:none;
     margin-top: 20px;
     background-color: rgb(56, 56, 56);
     text-align: center;
