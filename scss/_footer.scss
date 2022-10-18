@@ -2,17 +2,20 @@
     text-align: center;
     color: rgb(255, 255, 255);
     font-family: $mainFont;
-    font-size: $textMd;
+    font-size: $textSm;
+    padding: 10px;
  }
 .pie{
     text-decoration:none;
     margin-top: 20px;
-    background-color: rgb(56, 56, 56);
+    background-color: rgb(223, 174, 194);
     text-align: center;
  }
  
  .pie_icon--sm{
     width: 45px;
-    margin-right: 20px;
+    margin-bottom: 15px;
+    text-align: center;
+    padding: 5px;
  }
  

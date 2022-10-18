@@ -1,0 +1,31 @@
+.encabezado__img--fluid{
+    width: 5%;
+ }
+
+.encabezado__tittle--xl{
+    text-align: center;
+    color: teal;
+    font-family: $mainFont;
+ }
+
+ #botonera{
+    width: 100%;
+    background-color: rgb(223, 174, 194);
+ }
+
+ #botonera ul{
+    list-style: none;
+    text-decoration: none;
+    overflow: hidden;
+}
+
+#botonera ul li{
+    float: left;
+}
+	#botonera ul li a{
+		color: rgb(255, 255, 255);
+	}
+
+		#botonera ul li a:hover{
+			color: teal;
+		}

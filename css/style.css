@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  background-color: rgb(189, 188, 166);
+  background-color: rgb(245, 201, 235);
   background-repeat: repeat;
   background-attachment: fixed;
 }
@@ -20,23 +20,65 @@ body {
 
 .encabezado__tittle--xl {
   text-align: center;
-  color: rgb(87, 87, 79);
+  color: teal;
   font-family: "Times New Roman", Times, serif;
 }
 
 #botonera {
   width: 100%;
-  background-color: rgb(87, 87, 79);
+  background-color: rgb(223, 174, 194);
 }
 
-.nav-link {
-  justify-content: center;
-  color: white;
+#botonera ul {
+  list-style: none;
+  text-decoration: none;
+  overflow: hidden;
+}
+
+#botonera ul li {
+  float: left;
+}
+
+#botonera ul li a {
+  color: rgb(255, 255, 255);
+}
+
+#botonera ul li a:hover {
+  color: teal;
+}
+
+.principal {
+  margin-top: 25px;
 }
 
 .comentarios {
   margin-left: 60px;
   margin-right: 60px;
+  background-color: teal;
+  margin-top: 45px;
+  padding: 5px;
+  border-radius: 7px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.borde_comentarios {
+  border-radius: 15px;
+}
+
+.comentarios, div, h5, h6, p, a {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.video_contenedor {
+  margin-top: 25px;
+}
+
+.video_titulo {
+  font-size: 2em;
+  color: teal;
+  font-family: "Times New Roman", Times, serif;
+  margin-bottom: 20px;
 }
 
 .fotos_contenedor {
@@ -73,20 +115,27 @@ body {
   font-size: 2em;
   color: teal;
   font-family: "Times New Roman", Times, serif;
-  margin-left: 60px;
   margin-top: 25px;
-}
-
-.subtitulo_bodas {
-  font-size: 1.6em;
-  color: teal;
-  font-family: "Times New Roman", Times, serif;
-  margin-left: 60px;
+  text-align: center;
 }
 
 .bodas_contenedor {
   margin-top: 25px;
   margin-bottom: 25px;
+}
+
+.img-portfolio {
+  width: 450px;
+  height: 350px;
+  border-style: solid;
+  border-color: white;
+}
+
+.img-portfoliodos {
+  width: 300px;
+  height: 350px;
+  border-style: solid;
+  border-color: white;
 }
 
 .fotografia_contenedor {
@@ -112,10 +161,11 @@ body {
 
 .border_texto {
   font-family: "Times New Roman", Times, serif;
-  font-size: 1em;
+  font-size: 1.1em;
   padding: 25px;
   border-style: solid;
   border-width: 1px;
+  background-color: white;
 }
 
 .img_cursos {
@@ -135,6 +185,12 @@ body {
   font-size: 2em;
 }
 
+.texto_descripcion {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.1em;
+  margin-top: 30px;
+}
+
 .formulario_contenedor {
   margin-left: 60px;
   margin-right: 60px;
@@ -150,24 +206,38 @@ body {
 .boton-formulario {
   margin-top: 20px;
   color: whitesmoke;
-  background-color: #000000;
+  background-color: #5f184d;
 }
 
+.img_error {
+  background-color: #d4faff;
+}
+
+@media (max-width: 992px) {
+  .img_error img {
+    width: 100%;
+    text-align: center;
+    margin-top: 200px;
+  }
+}
 .footer_tittle {
   text-align: center;
   color: rgb(255, 255, 255);
   font-family: "Times New Roman", Times, serif;
-  font-size: 1.6em;
+  font-size: 1.1em;
+  padding: 10px;
 }
 
 .pie {
   text-decoration: none;
   margin-top: 20px;
-  background-color: rgb(56, 56, 56);
+  background-color: rgb(223, 174, 194);
   text-align: center;
 }
 
 .pie_icon--sm {
   width: 45px;
-  margin-right: 20px;
+  margin-bottom: 15px;
+  text-align: center;
+  padding: 5px;
 }/*# sourceMappingURL=style.css.map */
